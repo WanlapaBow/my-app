@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  goToPage(url: string){
+    window.open(url, "_self");
+  }
+
 }
